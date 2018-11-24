@@ -1,0 +1,23 @@
+.header {
+  background-color: $light-green;
+  text-align: right;
+  min-height: 300px;
+  padding-right: 65px;
+  font-size: 18px;
+
+  &__info {
+    margin-top: 65px;
+    color: $black;
+    text-shadow: -1px 0 1px white, 0 -1px 1px $white, 0 1px 1px white, 1px 0 1px $white, 0 0 8px $white, 0 0 8px $white, 0 0 8px $white, 2px 2px 3px $black;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $very-dark-blue;
+    transition: color .3s ease;
+  }
+
+  &__link:hover {
+    color: $dark-blue;
+  }
+}
