@@ -20,4 +20,8 @@
   &__link:hover {
     color: $dark-blue;
   }
+
+  &__selection::selection {
+    background-color: none;
+  }
 }
