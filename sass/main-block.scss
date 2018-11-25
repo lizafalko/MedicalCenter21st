@@ -22,6 +22,10 @@ html, body {
     color: $very-dark-blue;
   }
 
+  &__news {
+    text-align: justify;
+  }
+
   &__text {
     line-height: 1.5;
   }
